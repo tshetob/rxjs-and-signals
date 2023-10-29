@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+
+import { RxjsDemoApp } from './rxjs-mapping-op.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [ RouterModule, RxjsDemoApp],
   selector: 'rxjs-and-signals-app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
